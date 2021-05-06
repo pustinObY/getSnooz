@@ -1,0 +1,21 @@
+.form-material .form-group {
+    overflow: unset;
+}
+
+.form-material {
+    .select-2 {
+        overflow: unset;
+    }
+}
+
+.form-material {
+    .card-body {
+        .img_avatar {
+            max-width: 100%;
+        }
+    }
+}
+
+body {
+    overflow: auto;
+}

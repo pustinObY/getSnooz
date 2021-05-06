@@ -1,0 +1,152 @@
+.shopify-section {
+    width: 100%;
+}
+.header-navbar {
+    position: relative;
+    height: 80px;
+}
+a {
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+.header {
+    box-shadow: 0 2px 4px 0 rgba($color: #4c4c4b, $alpha: 0.1);
+    &__brand {
+        -webkit-box-flex: 0 0 auto;
+        -moz-box-flex: 0 0 auto;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+        padding: 1rem 0.75rem;
+    }
+    .logo {
+        width: 150px;
+    }
+    &__menu {
+        height: 100%;
+        -webkit-box-flex: 1 1 auto;
+        -moz-box-flex: 1 1 auto;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        .navbar-link {
+            color: $black;
+            line-height: 1.5;
+            padding: 1rem 0.75rem;
+            position: relative;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:hover {
+                color: $color-primary;
+                .fas {
+                    transition: color 0.3s ease-in-out;
+                    transform: rotate(180deg);
+                    color: $color-primary;
+                }
+            }
+        }
+        .mega-menu {
+            display: none;
+            left: 0;
+            font-size: 14px;
+            letter-spacing: 0px;
+            text-transform: none;
+            font-weight: 500;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            min-width: 100%;
+            z-index: 20;
+            box-shadow: 0 8px 8px rgba($color: #0a0a0a, $alpha: 0.1);
+            &__content {
+                padding: 20px 10px;
+            }
+        }
+        .mega-menu__mega-menu-1 {
+            &.is-active {
+                .mega-menu {
+                    display: block;
+                    border-top-width: 1px;
+                    border-top-color: rgba($color: #4c4c4b, $alpha: 0.1);
+                    border-top-style: solid;
+                    background-color: #ffffff !important;
+                    color: #3f3f3f;
+                }
+            }
+            .mega-menu {
+                &__content {
+                    text-align: center;
+                    a {
+                        color: $black;
+                        text-decoration: none;
+                    }
+                }
+                &__heading {
+                    font-weight: 600;
+                    margin: 10px 0;
+                    font-size: 18px;
+                }
+                &__desciption {
+                    color: #3f3f3f;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+                &__banner {
+                    background-color: #007ace;
+                    color: #efefef;
+                    padding: 0.75em 1em;
+                    width: 100%;
+                    transition: background-color 0.2s linear;
+                }
+                &__sticker-text {
+                    padding: 0 0.5em;
+                    margin-bottom: 0;
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &__icons {
+        .icon {
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -moz-inline-flex;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+            height: 1.2rem;
+            width: 1.2rem;
+            fill: currentColor;
+        }
+    }
+}

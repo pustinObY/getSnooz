@@ -1,0 +1,19 @@
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+@import 'mixins/_color.scss';
+@import 'mixins/_position.scss';
+@import 'mixins/_css3-mixins.scss';
+@import 'mixins/_mixins.scss';
+//----------------------------------*\
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
+
+//----------------------------------*\
+// OBJECTS & MODULES
+//----------------------------------*/
+//Responsive
+@import 'responsive/responsive.scss';
