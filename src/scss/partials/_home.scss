@@ -1,0 +1,54 @@
+.slider {
+    .caption-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: "Varela Round", sans-serif;
+        text-align: center;
+        &__title {
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 55px;
+        }
+        &__description {
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+        &__button {
+            color: black;
+            background-color: #3ef0ac;
+            border-color: rgba(0, 0, 0, 0);
+
+            border-radius: 15px;
+            width: 400px;
+            line-height: inherit;
+            height: auto;
+            max-width: 100%;
+            white-space: normal;
+            overflow-wrap: normal;
+            padding: 5px 15px;
+            a {
+                padding: 5px 15px;
+                font-weight: 600;
+                font-size: 1rem;
+                color: #000000;
+            }
+        }
+    }
+}
+.feature {
+    &__title {
+        padding: 1.5rem;
+        font-size: 14px;
+        color: #444444;
+        font-family: Poppins, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+}

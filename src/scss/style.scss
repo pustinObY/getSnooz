@@ -1,19 +1,20 @@
 //----------------------------------*\
 // SCSS MIXINS
 //----------------------------------*/
-@import 'mixins/_color.scss';
-@import 'mixins/_position.scss';
-@import 'mixins/_css3-mixins.scss';
-@import 'mixins/_mixins.scss';
+@import "mixins/_color.scss";
+@import "mixins/_position.scss";
+@import "mixins/_css3-mixins.scss";
+@import "mixins/_mixins.scss";
 //----------------------------------*\
 //----------------------------------*\
 // PARTIALS
 //----------------------------------*/
-@import 'partials/_header.scss';
-@import 'partials/_footer.scss';
+@import "partials/_header.scss";
+@import "partials/_footer.scss";
+@import "partials/_mixins.scss";
 
 //----------------------------------*\
 // OBJECTS & MODULES
 //----------------------------------*/
 //Responsive
-@import 'responsive/responsive.scss';
+@import "responsive/responsive.scss";
