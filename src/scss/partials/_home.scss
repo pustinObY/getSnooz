@@ -3,6 +3,7 @@ body {
     font-size: 15px;
 }
 .slider {
+    padding-top: 80px;
     .caption-content {
         position: absolute;
         top: 50%;
@@ -266,11 +267,17 @@ body {
 .our-fan {
     &__content {
         &--item {
+            cursor: pointer;
             box-shadow: 0 0 2px 0 rgba($color: #000000, $alpha: 0.3);
             transition: box-shadow 0.25s linear;
             text-align: center;
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+            &:hover{
+                box-shadow: 0 0 12px 0 rgba($color: #000000, $alpha: 0.4);
+            }
             .info-comment {
                 padding: 0 30px 30px;
+                margin-top: -27px;
                 .desciprtion {
                     position: relative;
                     max-width: 100%;
@@ -290,7 +297,6 @@ body {
                     }
                 }
                 &__avatar {
-                    margin-top: -55px;
                     position: relative;
                     display: block;
                     max-width: 50px;

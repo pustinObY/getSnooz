@@ -1,0 +1,105 @@
+.modal {
+    &.rate {
+        .modal-dialog {
+            height: 584px;
+            .modal-content {
+                height: 100%;
+                .modal-body {
+                    position: relative;
+                    padding: 0;
+                    .comment {
+                        background: rgb(145, 137, 126);
+                        height: 100%;
+                        align-items: center;
+                        &__left,
+                        &__right {
+                            flex-basis: 50%;
+                        }
+                        &__right {
+                            padding: 24px 24px 16px 24px;
+                            height: 100%;
+                            background-color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            &--head {
+                                .name {
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: 500;
+                                }
+                                .date {
+                                    color: #767676;
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    font-weight: normal;
+                                }
+                                .star {
+                                    color: #febf00;
+                                }
+                                .verifi {
+                                    font-size: 12px;
+                                    line-height: 18px;
+                                    color: #767676;
+                                    i {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                            &--content {
+                                padding-top: 24px;
+                                font-size: 16px;
+                                line-height: 24px;
+                                flex-grow: 1;
+                            }
+                            &--bottom {
+                                .title {
+                                    text-transform: uppercase;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: 400;
+                                    color: black;
+                                    margin-bottom: 8px;
+                                }
+                                .icon-button {
+                                    align-self: flex-start;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    padding: 6px 11px;
+                                    background-color: rgba(0, 0, 0, 0.05);
+                                    -webkit-border-radius: 8px;
+                                    -moz-border-radius: 8px;
+                                    border-radius: 8px;
+                                    -webkit-transition: background-color 0.1s ease-in;
+                                    -moz-transition: background-color 0.1s ease-in;
+                                    -o-transition: background-color 0.1s ease-in;
+                                    transition: background-color 0.1s ease-in;
+                                    &:hover {
+                                        background-color: rgba(0, 0, 0, 0.1);
+                                    }
+                                }
+                            }
+                        }
+                        .btn-close-pop {
+                            position: absolute;
+                            top: 15px;
+                            left: 15px;
+                            width: 36px;
+                            height: 36px;
+                            padding: 12px;
+                            border-radius: 8px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.3);
+                            i {
+                                font-size: 24px;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

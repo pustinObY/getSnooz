@@ -1,5 +1,9 @@
 .shopify-section {
     width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 40;
+    background: #fff;
 }
 .header-navbar {
     position: relative;
