@@ -1,3 +1,7 @@
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
 .slider {
     .caption-content {
         position: absolute;
@@ -86,26 +90,137 @@
         font-size: 1.25rem;
         font-weight: 400;
         line-height: 1.25;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
     &__tab {
         .nav-tabs {
+            margin-bottom: 15px;
             .nav-link {
-                color: $black;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                color: $black-light;
                 padding-left: 0;
                 padding-right: 15px;
                 margin-right: 8px;
                 transition: color 0.3s ease-in-out;
+                border-bottom: 1px solid transparent;
                 &.active {
                     color: $primary-hard;
                     border: none;
                     border-bottom: 1px solid $primary-hard;
                 }
                 &:hover {
-                    border: none;
-                    border-bottom: 1px solid $black;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-color: $black;
                 }
             }
         }
+        .tab-content {
+            font-size: 15px;
+            color: $black-light;
+            .tab-pane {
+                ol {
+                    line-height: 1.75;
+                }
+            }
+        }
+    }
+    &__color {
+        .swatch {
+            .color {
+                label {
+                    min-width: 34px;
+                    height: 34px !important;
+                    line-height: 34px;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+            label {
+            }
+        }
+        .swatch-element {
+            min-width: 40px;
+            min-height: 40px;
+            position: relative;
+            outline: none;
+            &.color {
+                border-radius: 50%;
+                border: #e2e2e2 thin solid;
+                label {
+                    padding: 0;
+                    margin: 0;
+                    width: 34px;
+                    height: 34px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    border: #e2e2e2 thin solid;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                &.available {
+                    border-color: black;
+                }
+            }
+        }
+    }
+    .btn {
+        border-radius: 15px;
+        width: 100%;
+        min-height: 44px;
+    }
+}
+.fan-sound {
+    padding-bottom: 60px;
+    &__head {
+        background-color: #43dacc;
+        padding: 22px;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.125;
+    }
+    &__item {
+        padding: 20px 0;
+        text-align: center;
+        &--icon {
+            margin: auto;
+            fill: #43dacc;
+            height: 3.6rem;
+            width: 3.6rem;
+            margin-bottom: 20px;
+        }
+        &--title {
+            color: black;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.125;
+            margin-bottom: 22px;
+        }
+    }
+    &__video {
+        height: 644px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.head {
+    text-align: center;
+    padding-bottom: 50px;
+    &__title {
+        color: #000000;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 1.125;
+        margin-bottom: 10px;
     }
 }

@@ -1,9 +1,33 @@
 $black: #231f20;
+$black-light: #2b2823;
 $color-primary: #51b2f5;
 $primary-hard: #3c75e6;
 a {
     color: $black;
     &:hover {
         color: $color-primary;
+    }
+}
+.btn-outline-sno {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    color: #2b2823;
+    box-shadow: none;
+    line-height: 1.2;
+    padding: 10px 0;
+    &:hover {
+        border: 1px solid #3c9ce6;
+        background-color: #3c9ce6;
+        color: white;
+    }
+}
+.btn-primary {
+    color: white;
+    background-color: #3c9ce6;
+    border-color: rgba(0, 0, 0, 0);
+    &:hover {
+        color: white;
+        border-color: rgba(0, 0, 0, 0) !important;
+        background-color: #3c75e6;
     }
 }
