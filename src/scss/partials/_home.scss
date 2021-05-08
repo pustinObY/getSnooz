@@ -51,4 +51,61 @@
         font-weight: 600;
         font-style: normal;
     }
+    &__brand {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+.hot-product {
+    padding: 60px 0;
+    &__thumbl {
+        margin-top: 20px;
+    }
+    &__star {
+        .letter {
+            letter-spacing: -2px;
+            display: inline-block;
+            i {
+                color: #febf00;
+            }
+        }
+        span {
+            color: #3c75e6;
+        }
+    }
+    &__title {
+        margin-bottom: 1.5rem;
+        a {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.125;
+        }
+    }
+    &__price {
+        color: $black;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.25;
+        margin-bottom: 100px;
+    }
+    &__tab {
+        .nav-tabs {
+            .nav-link {
+                color: $black;
+                padding-left: 0;
+                padding-right: 15px;
+                margin-right: 8px;
+                transition: color 0.3s ease-in-out;
+                &.active {
+                    color: $primary-hard;
+                    border: none;
+                    border-bottom: 1px solid $primary-hard;
+                }
+                &:hover {
+                    border: none;
+                    border-bottom: 1px solid $black;
+                }
+            }
+        }
+    }
 }

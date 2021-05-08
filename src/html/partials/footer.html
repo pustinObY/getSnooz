@@ -5,6 +5,8 @@
     integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 <script>
     $(".has-mega-menu").hover(
         function () {
@@ -14,4 +16,21 @@
             $(this).removeClass("is-active");
         }
     );
+
+    // slick slider hot product
+    $('.hot-product__show').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.hot-product__thumbl'
+    });
+    $('.hot-product__thumbl').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.hot-product__show',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
 </script>

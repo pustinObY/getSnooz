@@ -1,2 +1,9 @@
 $black: #231f20;
-$color-primary:#51b2f5;
+$color-primary: #51b2f5;
+$primary-hard: #3c75e6;
+a {
+    color: $black;
+    &:hover {
+        color: $color-primary;
+    }
+}
