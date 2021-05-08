@@ -1,0 +1,47 @@
+.footer {
+    background-color: #3f3f3f;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    &__heading {
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        font-size: 13px;
+        padding-left: 0;
+        a {
+            color: white;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+        .social {
+            font-size: 16px;
+            a {
+                margin-right: 12px;
+            }
+        }
+    }
+    label {
+        font-size: 15px;
+    }
+    .input-mail {
+        border-radius: 15px;
+        padding-left: 1em;
+        padding-right: 1em;
+        background-color: white;
+        border: 1px solid #cccccc;
+        color: #363636;
+        width: 100%;
+        font-size: 1rem;
+        height: 2.25em;
+        margin-bottom: 20px;
+    }
+    .btn-secondary{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
