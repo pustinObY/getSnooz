@@ -760,6 +760,12 @@ body {
       font-style: normal;
       font-size: 55px;
       text-transform: none; }
+  .product-detail .function__heading {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 20px; }
+  .product-detail .function p {
+    font-size: 15px; }
 
 .btn-amazon {
   background: #fad676;
