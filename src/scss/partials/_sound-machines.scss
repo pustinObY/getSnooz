@@ -33,3 +33,47 @@
 .list-product {
     padding: 50px 0;
 }
+.product-detail {
+    margin-top: 80px;
+    .btn-transparent {
+        color: #2b2823;
+        box-shadow: none;
+        text-transform: none;
+        font-size: 0.8rem;
+        letter-spacing: 0;
+        padding: 16px 0 28px;
+        flex-basis: 50%;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .function {
+        &__content {
+            padding: 30px;
+            text-align: center;
+            width: 40%;
+            position: absolute;
+            background-color: rgba($color: #ffffff, $alpha: 0.7);
+            top: 50%;
+            left: 50%;
+            font-size: 16px;
+            transform: translate(-50%, -50%);
+            &--heading {
+                font-family: "Varela Round", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 55px;
+                text-transform: none;
+            }
+        }
+    }
+}
+.btn-amazon {
+    background: #fad676;
+    border-radius: 0;
+    font-size: 14px;
+    svg {
+        width: 84px;
+        margin-top: 6px;
+    }
+}
