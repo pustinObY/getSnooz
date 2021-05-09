@@ -697,3 +697,35 @@ body {
             left: 50%;
             -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%); }
+
+.banner-crumb {
+  margin-top: 80px;
+  position: relative; }
+  .banner-crumb img {
+    height: 276px; }
+  .banner-crumb .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    text-align: center; }
+  .banner-crumb__heading {
+    margin-bottom: 8px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    text-transform: none;
+    color: #ffffff;
+    white-space: nowrap; }
+  .banner-crumb__subheading {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff; }
+
+.list-product {
+  padding: 50px 0; }
