@@ -157,6 +157,8 @@
     integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
@@ -222,5 +224,16 @@
             // instead of a settings object
         ]
     });
+
+    // Magic Grid (th nay lam t cay vcl)
+    let magicGrid = new MagicGrid({
+        container: '.container2',
+        animate: true,
+        gutter: 30,
+        static: true,
+        useMin: true
+    });
+
+    magicGrid.listen();
 
 </script>

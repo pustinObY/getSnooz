@@ -44,7 +44,7 @@
                 <div class="header-navbar d-md-flex align-items-center">
                     <div class="header__brand">
                         <a href="#" class="logo">
-                            <img src="../assets/img/logo.png" class="mw-100" alt="">
+                            <img src="assets/img/logo.png" class="mw-100" alt="">
                         </a>
                     </div>
                     <div class="header__menu align-items-center justify-content-center">
@@ -62,7 +62,7 @@
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image position-relative">
-                                                        <img src="../assets/img/image-item.jpg" class="w-100" alt="">
+                                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
                                                         <span class="sticker-text">New</span>
                                                     </a>
                                                     <p class="mega-menu__heading ">
@@ -79,7 +79,7 @@
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image">
-                                                        <img src="../assets/img/image-item.jpg" class="w-100" alt="">
+                                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
                                                     </a>
                                                     <p class="mega-menu__heading ">
                                                         <a href="#">SNOOZ White Noise
@@ -95,7 +95,7 @@
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image">
-                                                        <img src="../assets/img/image-item.jpg" class="w-100" alt="">
+                                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
                                                     </a>
                                                     <p class="mega-menu__heading ">
                                                         <a href="#">SNOOZ White Noise
@@ -362,7 +362,7 @@
                             <i class="fas fa-times"></i>
                         </button>
                         <div class="comment__left">
-                            <img src="../assets/img/image-item-2.jpg" class="w-100" alt="">
+                            <img src="assets/img/image-item-2.jpg" class="w-100" alt="">
                         </div>
                         <div class="comment__right">
                             <div class="comment__right--head">
@@ -429,6 +429,8 @@
         integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script>
@@ -494,6 +496,17 @@
                 // instead of a settings object
             ]
         });
+
+        // Magic Grid (th nay lam t cay vcl)
+        let magicGrid = new MagicGrid({
+            container: '.container2',
+            animate: true,
+            gutter: 30,
+            static: true,
+            useMin: true
+        });
+
+        magicGrid.listen();
 
     </script>
     <!-- end footer.html-->

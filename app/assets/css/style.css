@@ -586,6 +586,19 @@ body {
       background-color: #3c9ce6;
       color: #fff; }
 
+.our-fan.detail .fas {
+  font-size: 24px;
+  color: #febf00; }
+
+.our-fan.detail .info-review {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3c9ce6; }
+
+.our-fan.detail .our-fan__nav--more {
+  border-radius: 4px; }
+
 .shot-like .caption-content {
   position: absolute;
   left: 50%;
@@ -774,3 +787,39 @@ body {
   .btn-amazon svg {
     width: 84px;
     margin-top: 6px; }
+
+.our-fan__content2 {
+  width: 280px;
+  height: 500px;
+  background-color: antiquewhite;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 8px; }
+
+.container2 div {
+  width: 280px;
+  height: 500px;
+  background-color: antiquewhite;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-radius: 8px; }
+
+.container2 .item1 {
+  height: 200px; }
+
+.container2 .item4 {
+  height: 800px; }
+
+.container2 .item6 {
+  height: 600px; }
+
+.container2 .item11 {
+  height: 400px; }

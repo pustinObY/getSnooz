@@ -236,7 +236,6 @@ body {
                 text-transform: none;
                 white-space: nowrap;
             }
-          
         }
     }
 }
@@ -272,7 +271,7 @@ body {
             transition: box-shadow 0.25s linear;
             text-align: center;
             border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
-            &:hover{
+            &:hover {
                 box-shadow: 0 0 12px 0 rgba($color: #000000, $alpha: 0.4);
             }
             .info-comment {
@@ -362,6 +361,21 @@ body {
                 background-color: #3c9ce6;
                 color: #fff;
             }
+        }
+    }
+    &.detail {
+        .fas {
+            font-size: 24px;
+            color: #febf00;
+        }
+        .info-review {
+            margin-right: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #3c9ce6;
+        }
+        .our-fan__nav--more {
+            border-radius: 4px;
         }
     }
 }
