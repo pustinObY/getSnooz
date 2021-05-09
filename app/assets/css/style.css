@@ -788,38 +788,63 @@ body {
     width: 84px;
     margin-top: 6px; }
 
-.our-fan__content2 {
-  width: 280px;
-  height: 500px;
-  background-color: antiquewhite;
+.rating-detail__item {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center;
-  border-radius: 8px; }
+      align-items: center; }
 
-.container2 div {
-  width: 280px;
-  height: 500px;
-  background-color: antiquewhite;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  border-radius: 8px; }
+@media (min-width: 1200px) {
+  .col-xlg-5 {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: 20%; } }
 
-.container2 .item1 {
-  height: 200px; }
+.rating-detail {
+  margin-bottom: 100px; }
+  .rating-detail .rating-detail__item .our-fan__content--item {
+    text-align: left; }
+  .rating-detail .rating-detail__item .info-comment {
+    padding: 0 12px 12px;
+    margin-top: 0px; }
+    .rating-detail .rating-detail__item .info-comment .description {
+      font-size: 14px;
+      line-height: 19px; }
+    .rating-detail .rating-detail__item .info-comment .hot-product__star {
+      padding: 10px 0; }
+    .rating-detail .rating-detail__item .info-comment .block {
+      padding: 10px 10px 0; }
+      .rating-detail .rating-detail__item .info-comment .block .metadata {
+        margin-bottom: 5px; }
+        .rating-detail .rating-detail__item .info-comment .block .metadata .small {
+          font-size: 11px;
+          color: #2b2823; }
+        .rating-detail .rating-detail__item .info-comment .block .metadata .value {
+          font-size: 13px; }
 
-.container2 .item4 {
-  height: 800px; }
-
-.container2 .item6 {
-  height: 600px; }
-
-.container2 .item11 {
-  height: 400px; }
+.review {
+  margin-top: 80px;
+  padding-top: 40px; }
+  .review .title {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.125; }
+  .review .description {
+    font-weight: 400;
+    font-size: 15px;
+    color: #2b2823; }
+    .review .description a {
+      color: #3c75e6;
+      cursor: pointer; }
+  .review .fas {
+    font-size: 24px;
+    color: #febf00; }
+  .review .info-review {
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3c9ce6; }
