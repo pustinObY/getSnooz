@@ -226,6 +226,13 @@ a {
           align-items: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  .header__mobile .icon {
+    cursor: pointer;
+    opacity: 0; }
+    .header__mobile .icon.active {
+      opacity: 1; }
+    .header__mobile .icon svg {
+      width: 16px; }
 
 .shop-sound {
   padding-bottom: 70px; }
@@ -264,6 +271,11 @@ a {
           transform: translate(-50%, -50%); }
     .thumbnail-swatch .swatch.available {
       border: 1px solid #000; }
+
+@media (max-width: 767.77px) {
+  .header .header-navbar {
+    -ms-flex-pack: justify;
+        justify-content: space-between; } }
 
 .footer {
   background-color: #3f3f3f;

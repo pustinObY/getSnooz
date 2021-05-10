@@ -41,13 +41,37 @@
     <div class="shopify-section">
         <header class="header">
             <div class="container">
-                <div class="header-navbar d-md-flex align-items-center">
+                <div class="header-navbar d-flex  align-items-center">
+                    <div class="d-block d-md-none">
+                        <div class="header__mobile">
+                            <div class="header__mobile--icon">
+                                <span class="icon active" data-icon="menu">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                        <g id="menu">
+                                            <rect x="5" y="12" width="90" height="8"></rect>
+                                            <rect x="5" y="46" width="90" height="8"></rect>
+                                            <rect x="5" y="80" width="90" height="8"></rect>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="icon " data-icon="x">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                        <g id="x">
+                                            <polygon
+                                                points="97.83 7.83 92.17 2.17 50 44.34 7.83 2.17 2.17 7.83 44.34 50 2.17 92.17 7.83 97.83 50 55.66 92.17 97.83 97.83 92.17 55.66 50 97.83 7.83">
+                                            </polygon>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="header__brand">
                         <a href="#" class="logo">
                             <img src="../assets/img/logo.png" class="mw-100" alt="">
                         </a>
                     </div>
-                    <div class="header__menu align-items-center justify-content-center">
+                    <div class="header__menu d-none d-md-flex align-items-center justify-content-center ">
                         <nav class="header__menu--items d-flex align-items-center h-100 justify-content-center ">
                             <div
                                 class="navbar-item header__item has-mega-menu d-flex align-items-center h-100 justify-content-center">
@@ -58,7 +82,7 @@
                                 <div class="mega-menu  mega-menu--header-classic">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-lg-4">
+                                            <div class="col-4">
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image position-relative">
@@ -75,7 +99,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4">
+                                            <div class="col-4">
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image">
@@ -91,7 +115,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4">
+                                            <div class="col-4">
                                                 <div class="mega-menu__content">
 
                                                     <a href="" class="mega-menu__image">
@@ -141,6 +165,23 @@
                     </div>
                 </div>
             </div>
+            <ul class="header__mobile-item d-none">
+                <li>
+                    <a href="#">
+                        Sound Machines
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Reviews
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        FAQ
+                    </a>
+                </li>
+            </ul>
         </header>
     </div>
     <!-- end header.html-->
