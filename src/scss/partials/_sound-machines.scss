@@ -114,7 +114,7 @@
                 font-size: 14px;
                 line-height: 19px;
             }
-            .hot-product__star{
+            .hot-product__star {
                 padding: 10px 0;
             }
             .block {
@@ -133,21 +133,22 @@
         }
     }
 }
-.review{
+.title {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.125;
+}
+.review {
     margin-top: 80px;
     padding-top: 40px;
-    .title{
-        color: black;
-        margin-bottom: 40px;
-        font-size: 28px;
-        font-weight: 600;
-        line-height: 1.125;
-    }
-    .description{
+
+    .description {
         font-weight: 400;
         font-size: 15px;
         color: #2b2823;
-        a{
+        a {
             color: #3c75e6;
             cursor: pointer;
         }

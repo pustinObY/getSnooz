@@ -1,0 +1,131 @@
+.cart {
+    margin-top: 80px;
+    padding: 40px 0;
+    &__bag {
+        table {
+            thead {
+                th {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 1.5;
+                    color: #000000;
+                    &:nth-child(1) {
+                        text-align: left;
+                    }
+                    &:nth-last-child(1) {
+                        width: 25px;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        &:nth-last-child(1) {
+                            vertical-align: baseline;
+                            padding: 20px 0;
+                        }
+                    }
+                    &:nth-last-child(1) {
+                        td {
+                            border-bottom-width: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .table > :not(:last-child) > :last-child > * {
+            border-bottom-color: #cccccc;
+        }
+        .table > :not(caption) > * > * {
+            padding: 20px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .btn-close-pop {
+            margin: 0;
+            margin-left: auto;
+            width: 22px;
+        }
+        font-size: 15px;
+        color: #2b2823;
+        img {
+            width: 150px;
+            height: 150px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+        .info {
+            text-align: left;
+            &__name {
+                display: block;
+                margin-bottom: 20px;
+                font-size: 18px;
+                color: #3c75e6;
+            }
+        }
+        &--price {
+            .title_sub {
+                font-weight: 600;
+                font-style: normal;
+                font-size: 22px;
+            }
+            tr {
+                td {
+                    background-color: #f2f2f2;
+                }
+            }
+        }
+        .btn {
+            margin: 10px 0 10px;
+            width: 100%;
+            text-align: center;
+            height: 42px;
+            border-radius: 15px;
+            font-size: 15px;
+            width: 100%;
+            font-weight: 500;
+            svg {
+                width: 15px;
+                fill: #ffffff;
+                margin-top: -4px;
+                margin-right: 4px;
+            }
+        }
+        .social-pay {
+            .btn {
+                margin-top: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #ffc439;
+                border-radius: 4px;
+                .paypal-button-logo {
+                    width: auto;
+                    height: 20px;
+                    -o-object-fit: initial;
+                    object-fit: initial;
+                }
+                .paypal-button-logo-2 {
+                    width: auto;
+                    height: 16px;
+                    -o-object-fit: initial;
+                    object-fit: initial;
+                }
+                &.amazon-button {
+                    margin-left: 10px;
+                    background-color: #fad676;
+                    img {
+                        -o-object-fit: contain;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+        .text-center {
+            a {
+                color: $color-primary;
+            }
+        }
+    }
+}
