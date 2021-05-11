@@ -327,7 +327,7 @@
     $('.hot-product__show').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         fade: true,
         asNavFor: '.hot-product__thumbl'
     });
@@ -335,7 +335,10 @@
         slidesToShow: 5,
         slidesToScroll: 1,
         asNavFor: '.hot-product__show',
-        dots: false,
+        dots: true,
+        // centerMode: true,
+        focusOnSelect: true,
+        loop: true,
     });
 
     // Our-fan
