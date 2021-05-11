@@ -377,6 +377,14 @@
         ]
     });
 
+    //toogle class mobile menu
+
+    $(document).ready(function () {
+        $(".header__mobile").click(function () {
+            $("body").toggleClass("mobile-menu-open");
+        });
+    });
+
     // Magic Grid (th nay lam t cay vcl)
     let magicGrid = new MagicGrid({
         container: '.rating-detail',
@@ -387,5 +395,7 @@
     });
 
     magicGrid.listen();
+
+
 
 </script>

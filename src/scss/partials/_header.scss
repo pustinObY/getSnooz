@@ -162,6 +162,11 @@ a {
         }
     }
     &__mobile {
+        padding-left: 16px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
         .icon {
             cursor: pointer;
             opacity: 0;
@@ -172,6 +177,91 @@ a {
                 width: 16px;
             }
         }
+    }
+    &__mobile-item {
+        padding: 0;
+        list-style: none;
+        height: 100vh;
+        overflow-y: auto;
+        left: -100%;
+        position: absolute;
+        top: 100%;
+        transition: left 0.3s ease-in-out;
+        width: 100%;
+        z-index: 40;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        background: #fff;
+        li {
+            .item_link {
+                padding-left: 24px;
+                color: #231f20;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 3;
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+            &.dropdown {
+                .btn {
+                    padding-right: 16px;
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                    &:hover {
+                        color: $color-primary;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+        .mega-menu__content {
+            position: relative;
+            padding: 20px 0;
+            text-align: center;
+            a {
+                color: #231f20;
+                text-decoration: none;
+            }
+        }
+        .mega-menu__image .sticker-text {
+            background-color: #007ace;
+            color: #fff;
+            padding: 6px 10px;
+            position: absolute;
+            left: 0;
+        }
+        .mega-menu__heading {
+            font-weight: 600;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .mega-menu__banner {
+            background-color: #007ace;
+            color: #efefef;
+            padding: 0.75em 1em;
+            width: 100%;
+            transition: background-color 0.2s linear;
+            .mega-menu__sticker-text {
+                padding: 0 0.5em;
+                margin-bottom: 0;
+                font-size: 15px;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+    }
+}
+.mobile-menu-open {
+    overflow: hidden;
+    height: 100vh;
+    .header__mobile-item {
+        transition: left 0.5s;
+        left: 0;
+        height: calc(100vh - 52px);
     }
 }
 .shop-sound {
@@ -220,6 +310,11 @@ a {
     .header {
         .header-navbar {
             justify-content: space-between;
+            height: 52px;
+        }
+        .header__icons {
+            cursor: pointer;
+            margin-right: 16px;
         }
     }
 }

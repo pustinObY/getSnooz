@@ -1,29 +1,27 @@
 <div class="shopify-section">
     <header class="header">
-        <div class="container">
+        <div class="container-lg">
             <div class="header-navbar d-flex  align-items-center">
-                <div class="d-block d-md-none">
-                    <div class="header__mobile">
-                        <div class="header__mobile--icon">
-                            <span class="icon active" data-icon="menu">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                                    <g id="menu">
-                                        <rect x="5" y="12" width="90" height="8"></rect>
-                                        <rect x="5" y="46" width="90" height="8"></rect>
-                                        <rect x="5" y="80" width="90" height="8"></rect>
-                                    </g>
-                                </svg>
-                            </span>
-                            <span class="icon " data-icon="x">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                                    <g id="x">
-                                        <polygon
-                                            points="97.83 7.83 92.17 2.17 50 44.34 7.83 2.17 2.17 7.83 44.34 50 2.17 92.17 7.83 97.83 50 55.66 92.17 97.83 97.83 92.17 55.66 50 97.83 7.83">
-                                        </polygon>
-                                    </g>
-                                </svg>
-                            </span>
-                        </div>
+                <div class="header__mobile">
+                    <div class="header__mobile--icon">
+                        <span class="icon active" data-icon="menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <g id="menu">
+                                    <rect x="5" y="12" width="90" height="8"></rect>
+                                    <rect x="5" y="46" width="90" height="8"></rect>
+                                    <rect x="5" y="80" width="90" height="8"></rect>
+                                </g>
+                            </svg>
+                        </span>
+                        <span class="icon " data-icon="x">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <g id="x">
+                                    <polygon
+                                        points="97.83 7.83 92.17 2.17 50 44.34 7.83 2.17 2.17 7.83 44.34 50 2.17 92.17 7.83 97.83 50 55.66 92.17 97.83 97.83 92.17 55.66 50 97.83 7.83">
+                                    </polygon>
+                                </g>
+                            </svg>
+                        </span>
                     </div>
                 </div>
                 <div class="header__brand">
@@ -125,22 +123,92 @@
                 </div>
             </div>
         </div>
-        <ul class="header__mobile-item d-none">
-            <li>
-                <a href="#">
-                    Sound Machines
-                </a>
+        <ul class="header__mobile-item">
+            <li class="dropdown">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="#" class="item_link">
+                        Sound Machines
+                    </a>
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false"
+                        aria-controls="collapseMenu">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="collapse" id="collapseMenu">
+                    <div class="p-4 pt-0">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mega-menu__content">
+
+                                    <a href="" class="mega-menu__image position-relative">
+                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
+                                        <span class="sticker-text">New</span>
+                                    </a>
+                                    <p class="mega-menu__heading ">
+                                        <a href="#">SNOOZ White Noise
+                                            Sound Machine
+                                        </a>
+                                    </p>
+                                    <div class="mega-menu__desciprtion">
+                                        <p>White Noise from a Real Fan, App-Enabled</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mega-menu__content">
+
+                                    <a href="" class="mega-menu__image">
+                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
+                                    </a>
+                                    <p class="mega-menu__heading ">
+                                        <a href="#">SNOOZ White Noise
+                                            Sound Machine
+                                        </a>
+                                    </p>
+                                    <div class="mega-menu__desciprtion">
+                                        <p>White Noise from a Real Fan, App-Enabled</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mega-menu__content">
+
+                                    <a href="" class="mega-menu__image">
+                                        <img src="assets/img/image-item.jpg" class="w-100" alt="">
+                                    </a>
+                                    <p class="mega-menu__heading ">
+                                        <a href="#">SNOOZ White Noise
+                                            Sound Machine
+                                        </a>
+                                    </p>
+                                    <div class="mega-menu__desciprtion">
+                                        <p>White Noise from a Real Fan, App-Enabled</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mega-menu__banner">
+                        <p class="mega-menu__sticker-text">
+                            Free Shipping on All Sound Machines!</p>
+                    </div>
+                </div>
+
             </li>
             <li>
-                <a href="#">
+                <a href="#" class="item_link">
                     Reviews
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#" class="item_link">
                     FAQ
                 </a>
             </li>
         </ul>
+
+
+
     </header>
 </div>
