@@ -237,3 +237,12 @@
         }
     }
 }
+@media (max-width: 767.77px) {
+    .modal {
+        &.pop-cart {
+            .modal-dialog {
+                width: 100%;
+            }
+        }
+    }
+}

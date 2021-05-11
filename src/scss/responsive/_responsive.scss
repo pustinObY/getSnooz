@@ -27,6 +27,37 @@
 @media (min-width: 1200px) {
 }
 @media (max-width: 767.77px) {
+    .banner-crumb,
+    .faq,
+    .product-detail,
+    .review {
+        margin-top: 52px;
+    }
+    .banner-crumb .content {
+        width: 80%;
+    }
+    .banner-crumb__heading,
+    .faq__banner--content {
+        font-size: 28px;
+        white-space: inherit;
+    }
+    .list-product.shop-sound {
+        .col-md-4 {
+            padding-bottom: 52px;
+        }
+    }
+    .faq {
+        &__banner {
+            img {
+                height: 180px;
+            }
+        }
+    }
+
+    .review .fas {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
 }
 
 @media (min-width: 576px) {

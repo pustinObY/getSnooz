@@ -418,11 +418,18 @@ body {
         }
     }
     .feature {
-        padding: 0 100px;
+        // padding: 0 100px;
     }
     .hot-product {
         &__star {
             padding-top: 50px;
+        }
+    }
+    .fan-sound {
+        &--item {
+            .col-md-4 {
+                padding: 24px 0;
+            }
         }
     }
 }
