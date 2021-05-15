@@ -313,6 +313,7 @@ a {
 .shop-sound {
   padding-bottom: 70px; }
   .shop-sound .sticker-text {
+    top: 0;
     background-color: #007ace;
     color: white;
     padding: 6px 10px;
@@ -323,6 +324,12 @@ a {
     .shop-sound__item--title {
       padding-top: 13px;
       color: #3c75e6; }
+  .shop-sound__slick {
+    /* the parent */ }
+    .shop-sound__slick .slick-slide {
+      margin: 0 30px; }
+    .shop-sound__slick .slick-list {
+      margin: 0 -30px; }
 
 .thumbnail-swatch {
   display: -ms-flexbox;
@@ -523,7 +530,8 @@ body {
     min-width: 40px;
     min-height: 40px;
     position: relative;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
     .hot-product__color .swatch-element.color {
       border-radius: 50%;
       border: #e2e2e2 thin solid; }
