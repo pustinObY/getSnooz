@@ -548,6 +548,19 @@ body {
         left: 50%;
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
+      .hot-product__color .swatch-element.color a {
+        padding: 0;
+        margin: 0;
+        width: 34px;
+        height: 34px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: #e2e2e2 thin solid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
       .hot-product__color .swatch-element.color.available {
         border-color: black; }
   .hot-product .btn {
@@ -801,7 +814,7 @@ body {
 
 .btn-close-pop {
   margin-left: 24px;
-  width: 25px;
+  width: 22px;
   height: 22px;
   padding: 0;
   background: #10101057;
@@ -908,7 +921,8 @@ body {
   margin-left: auto; }
   .modal.pop-cart .modal-dialog .modal-content {
     border-radius: 0;
-    height: 100%; }
+    height: 100%;
+    overflow-y: auto; }
     .modal.pop-cart .modal-dialog .modal-content .modal-header {
       border-radius: 0;
       -ms-flex-pack: center;
@@ -967,6 +981,9 @@ body {
             margin-right: 4px; }
         .modal.pop-cart .modal-dialog .modal-content .modal-body .not-empty__total a {
           text-decoration: underline; }
+
+.modal-open .modal.pop-cart {
+  overflow-y: inherit; }
 
 @media (max-width: 767.77px) {
   .modal.pop-cart .modal-dialog {
