@@ -85,11 +85,12 @@
             font-size: 15px;
             width: 100%;
             font-weight: 500;
+            &.btn-close-pop {
+                width: 42px;
+            }
             svg {
                 width: 15px;
                 fill: #ffffff;
-                margin-top: -4px;
-                margin-right: 4px;
             }
         }
         .social-pay {
