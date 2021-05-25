@@ -281,6 +281,25 @@
     .fieldset {
         margin: -0.4285714286em;
         zoom: 1;
+        &.error {
+            .field__input-wrapper {
+                .field__input {
+                    border: 2px solid #dc3545;
+                }
+            }
+            .checkbox__label {
+                &.error {
+                    display: block;
+                    margin: 8px 0;
+                    color: #dc3545;
+                }
+            }
+        }
+        .field {
+            .checkbox__label {
+                display: none;
+            }
+        }
     }
     .field {
         width: 100%;

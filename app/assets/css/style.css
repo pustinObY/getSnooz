@@ -1474,6 +1474,14 @@ body {
   .content_checkout .fieldset {
     margin: -0.4285714286em;
     zoom: 1; }
+    .content_checkout .fieldset.error .field__input-wrapper .field__input {
+      border: 2px solid #dc3545; }
+    .content_checkout .fieldset.error .checkbox__label.error {
+      display: block;
+      margin: 8px 0;
+      color: #dc3545; }
+    .content_checkout .fieldset .field .checkbox__label {
+      display: none; }
   .content_checkout .field {
     width: 100%;
     float: left;
