@@ -2127,6 +2127,20 @@ body {
     display: table-cell; }
   .content_checkout .content-box__row ~ .content-box__row {
     border-top: 1px solid #d9d9d9; }
+  .content_checkout .content-box__row .position-relative .field__icon {
+    height: inherit;
+    top: 35%; }
+  .content_checkout .content-box__row .position-relative .checkbox__label {
+    display: none; }
+  .content_checkout .content-box__row .position-relative.error .field__icon {
+    height: inherit;
+    top: 24%; }
+  .content_checkout .content-box__row .position-relative.error .field__input {
+    border: 2px solid #dc3545; }
+  .content_checkout .content-box__row .position-relative.error .checkbox__label.error {
+    display: block;
+    margin: 8px 0;
+    color: #dc3545; }
   .content_checkout .breadcrumb__item--current {
     font-weight: 500;
     color: #333; }

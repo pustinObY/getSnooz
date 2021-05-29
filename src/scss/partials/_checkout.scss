@@ -1077,6 +1077,34 @@
     .content-box__row ~ .content-box__row {
         border-top: 1px solid #d9d9d9;
     }
+    .content-box__row {
+        .position-relative {
+            .field__icon {
+                height: inherit;
+                top: 35%;
+            }
+            .checkbox__label {
+                display: none;
+            }
+            &.error {
+                .field__icon {
+                    height: inherit;
+                    top: 24%;
+                }
+                .field__input {
+                    border: 2px solid #dc3545;
+                }
+
+                .checkbox__label {
+                    &.error {
+                        display: block;
+                        margin: 8px 0;
+                        color: #dc3545;
+                    }
+                }
+            }
+        }
+    }
     .breadcrumb__item--current {
         font-weight: 500;
         color: #333;
