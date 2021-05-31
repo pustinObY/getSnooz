@@ -2118,7 +2118,8 @@ body {
     vertical-align: top; }
   .content_checkout .display-table .radio__label__primary {
     display: table-cell;
-    width: 100%; }
+    width: 100%;
+    font-weight: 600; }
   .content_checkout .radio__label__accessory {
     text-align: right;
     padding-left: 0.75em;
@@ -2127,6 +2128,8 @@ body {
     display: table-cell; }
   .content_checkout .content-box__row ~ .content-box__row {
     border-top: 1px solid #d9d9d9; }
+  .content_checkout .content-box__row--secondary {
+    background-color: #fafafa; }
   .content_checkout .content-box__row .position-relative .field__icon {
     height: inherit;
     top: 35%; }

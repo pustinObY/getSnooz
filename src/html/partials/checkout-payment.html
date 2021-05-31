@@ -148,7 +148,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="content-box__row">
+                                    <div class="content-box__row  content-box__row--secondary">
                                         <div class="position-relative error mb-3">
                                             <input placeholder="Card Number" class="field__input">
                                             <label class="checkbox__label error" for="checkout_buyer_accepts_marketing">
@@ -236,6 +236,153 @@
                                         </div>
                                     </div>
                                 </fieldset>
+                            </div>
+                        </div>
+                        <div class="section section--shipping-method">
+                            <div class="section__header">
+                                <h2 class="section__title" id="main-header" tabindex="-1">
+                                    Billing address
+                                </h2>
+                                <p class="section__text">
+                                    Select the address that matches your card or payment method.
+                                </p>
+                            </div>
+                            <div class="section__content">
+                                <fieldset class="content-box" data-shipping-methods="">
+                                    <div class="content-box__row">
+                                        <div class="radio-wrapper">
+                                            <div class="radio__input">
+                                                <input class="input-radio" type="radio">
+                                            </div>
+                                            <label class="radio__label">
+                                                <span class="radio__label__primary ">
+                                                    Same as shipping address
+                                                </span>
+                                            </label>
+                                        </div> <!-- /radio-wrapper-->
+                                    </div>
+                                    <div class="content-box__row">
+                                        <div class="radio-wrapper"
+                                            data-shipping-method="shopify-Fast(ish)%20Shipping%20(Delivered%20in%205-7%20Business%20Days)-0.00">
+                                            <div class="radio__input">
+                                                <input class="input-radio" type="radio" checked="checked">
+                                            </div>
+                                            <label class="radio__label"
+                                                for="checkout_shipping_rate_id_shopify-fastish20shipping20delivered20in205-720business20days-0_00">
+                                                <span class="radio__label__primary "
+                                                    data-shipping-method-label-title="Fast(ish) Shipping (Delivered in 5-7 Business Days)">
+                                                    Use a different billing address
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="radio-group__row content-box__row content-box__row--secondary">
+                                        <div class="field field--optional field--half ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="First name (optional)" class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional field--half ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="Last name" class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="Company" class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="Address" class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="Apartment, suite, etc. (optional)"
+                                                    class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional ">
+                                            <div class="field__input-wrapper">
+                                                <input placeholder="City" class="field__input">
+                                            </div>
+                                        </div>
+                                        <div class="field field--required field--third field--show-floating-label">
+                                            <div class="field__input-wrapper field__input-wrapper--select">
+                                                <label class="field__label field__label--visible">Country/Region</label>
+                                                <select class="field__input field__input--select">
+                                                    <option value="United States">United States
+                                                    </option>
+                                                </select>
+                                                <div class="field__caret">
+                                                    <svg class="icon-svg icon-svg--color-adaptive-lighter icon-svg--size-10 field__caret-svg"
+                                                        role="presentation" aria-hidden="true" focusable="false">
+                                                        <use xlink:href="#caret-down"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field field--required field--show-floating-label field--third"
+                                            data-address-field="province">
+                                            <div class="field__input-wrapper field__input-wrapper--select"><label
+                                                    class="field__label field__label--visible"
+                                                    for="checkout_shipping_address_province">State</label>
+                                                <select placeholder="State" class="field__input field__input--select">
+                                                    <option disabled="">State</option>
+                                                    <option>
+                                                        Alabama</option>
+                                                    <option>
+                                                        Alaska</option>
+                                                </select>
+                                                <div class="field__caret shown-if-js">
+                                                    <svg class="icon-svg icon-svg--color-adaptive-lighter icon-svg--size-10 field__caret-svg"
+                                                        role="presentation" aria-hidden="true" focusable="false">
+                                                        <use xlink:href="#caret-down"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field field--required field--third" data-address-field="zip">
+
+                                            <div class="field__input-wrapper"><label
+                                                    class="field__label field__label--visible">ZIP code</label>
+                                                <input placeholder="ZIP code" class="field__input field__input--select">
+                                            </div>
+                                        </div>
+                                        <div class="field field--optional">
+                                            <div class="field__input-wrapper field__input-wrapper--icon-right">
+                                                <label class="field__label field__label--visible"
+                                                    for="checkout_shipping_address_phone">Phone (optional)</label>
+                                                <input placeholder="Phone (optional)"
+                                                    class="field__input field__input--numeric">
+                                                <div class="field__icon">
+                                                    <div data-tooltip="true" id="phone_tooltip"
+                                                        class="tooltip-container">
+                                                        <button type="button" class="btn tooltip-control"
+                                                            data-tooltip-control="true" aria-label="More information"
+                                                            aria-describedby="tooltip-for-phone"
+                                                            aria-controls="tooltip-for-phone" aria-pressed="false"
+                                                            placeholder="Phone (optional)">
+                                                            <i class="fas fa-question-circle"></i>
+                                                            <!-- <svg class="icon-svg icon-svg--color-adaptive-lighter icon-svg--size-16 icon-svg--block icon-svg--center"
+                                                                role="presentation" aria-hidden="true"
+                                                                focusable="false">
+                                                                <use xlink:href="#question"></use>
+                                                            </svg> -->
+                                                        </button>
+                                                        <span class="tooltip" role="tooltip" id="tooltip-for-phone">In
+                                                            case we need to contact you
+                                                            about your order</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+
                             </div>
                         </div>
                     </div>
