@@ -435,6 +435,14 @@ body {
             object-fit: cover;
         }
     }
+    .shot-like {
+        .caption-content {
+            top: 50%;
+            .title {
+                font-size: 30px;
+            }
+        }
+    }
     .feature {
         // padding: 0 100px;
     }

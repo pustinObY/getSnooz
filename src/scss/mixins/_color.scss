@@ -4,6 +4,7 @@ $color-primary: #51b2f5;
 $primary-hard: #3c75e6;
 a {
     color: $black;
+    cursor: pointer;
     &:hover {
         color: $color-primary;
     }
