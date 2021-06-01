@@ -288,6 +288,10 @@ body {
             &:hover {
                 box-shadow: 0 0 12px 0 rgba($color: #000000, $alpha: 0.4);
             }
+            img {
+                height: 315px;
+                object-fit: cover;
+            }
             .info-comment {
                 padding: 0 30px 30px;
                 margin-top: -27px;
@@ -443,6 +447,15 @@ body {
         &--item {
             .col-md-4 {
                 padding: 24px 0;
+            }
+        }
+    }
+    .our-fan {
+        &__content {
+            &--item {
+                img {
+                    height: 245px;
+                }
             }
         }
     }

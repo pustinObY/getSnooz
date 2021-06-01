@@ -697,6 +697,9 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     .our-fan__content--item:hover {
       box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.4); }
+    .our-fan__content--item img {
+      height: 315px;
+      object-fit: cover; }
     .our-fan__content--item .info-comment {
       padding: 0 30px 30px;
       margin-top: -27px; }
@@ -817,7 +820,9 @@ body {
   .hot-product__star {
     padding-top: 50px; }
   .fan-sound--item .col-md-4 {
-    padding: 24px 0; } }
+    padding: 24px 0; }
+  .our-fan__content--item img {
+    height: 245px; } }
 
 @media (min-width: 768px) {
   .slider {
