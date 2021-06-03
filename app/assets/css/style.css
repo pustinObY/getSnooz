@@ -1097,20 +1097,19 @@ body {
       text-decoration: underline; }
   .product-detail .function__content {
     padding: 30px;
-    text-align: center;
-    width: 40%;
+    width: 23%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
-    top: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    top: 22%;
     left: 50%;
     font-size: 16px;
     -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
     .product-detail .function__content--heading {
       font-family: "Varela Round", sans-serif;
-      font-weight: 400;
+      font-weight: 600;
       font-style: normal;
-      font-size: 55px;
+      font-size: 42px;
       text-transform: none; }
   .product-detail .function__heading {
     font-size: 28px;

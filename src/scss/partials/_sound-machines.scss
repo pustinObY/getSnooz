@@ -50,19 +50,18 @@
     .function {
         &__content {
             padding: 30px;
-            text-align: center;
-            width: 40%;
+            width: 23%;
             position: absolute;
-            background-color: rgba($color: #ffffff, $alpha: 0.7);
-            top: 50%;
+            background-color: rgba($color: #ffffff, $alpha: 0);
+            top: 22%;
             left: 50%;
             font-size: 16px;
             transform: translate(-50%, -50%);
             &--heading {
                 font-family: "Varela Round", sans-serif;
-                font-weight: 400;
+                font-weight: 600;
                 font-style: normal;
-                font-size: 55px;
+                font-size: 42px;
                 text-transform: none;
             }
         }
