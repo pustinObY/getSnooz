@@ -1393,7 +1393,8 @@ body {
     -webkit-flex: 1 0 auto;
     -ms-flex: 1 0 aut; }
   .content_checkout .main .logo {
-    display: none; }
+    display: block;
+    margin-bottom: 16px; }
   .content_checkout .logo__image {
     display: inline-block; }
   .content_checkout .logo__image--medium {

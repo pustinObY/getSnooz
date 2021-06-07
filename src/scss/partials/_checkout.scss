@@ -72,7 +72,8 @@
         -ms-flex: 1 0 aut;
     }
     .main .logo {
-        display: none;
+        display: block;
+        margin-bottom: 16px;
     }
     .logo__image {
         display: inline-block;
