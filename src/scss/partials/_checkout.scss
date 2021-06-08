@@ -13,6 +13,13 @@
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
     height: 100%;
+    &.overflow-hidden {
+        .around {
+            position: absolute;
+            z-index: 999;
+            background-color: rgba($color: #ffffff, $alpha: 0.8);
+        }
+    }
 }
 .content_checkout {
     overflow: hidden;
@@ -1327,6 +1334,20 @@ html {
             float: left;
             &__header {
                 padding-bottom: 2em;
+            }
+            &__order {
+                img {
+                    width: 56px;
+                }
+                &--content {
+                    p {
+                        font-size: 12px;
+                        color: #717171;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
             }
         }
         .page--logo-main .main .logo {
