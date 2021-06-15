@@ -2340,26 +2340,168 @@ html {
   padding-top: 30px;
   margin-top: 50px;
   padding-bottom: 50px; }
+  .shipping .banner-ship {
+    margin-bottom: 24px;
+    position: relative; }
+    .shipping .banner-ship .banner__content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      z-index: 3;
+      width: 100%;
+      padding: 1.5rem; }
+      .shipping .banner-ship .banner__content .banner__text {
+        margin: auto;
+        max-width: 900px; }
+      .shipping .banner-ship .banner__content .banner__heading {
+        font-family: "Varela Round",sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 35px;
+        text-transform: none;
+        color: #fff;
+        margin-bottom: 0; }
+      .shipping .banner-ship .banner__content .banner__subheading {
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #fff; }
   .shipping .title {
     color: #000;
     font-size: 28px;
     font-weight: 600;
     line-height: 1.125; }
+  .shipping a {
+    color: #51b2f5;
+    padding: 0; }
   .shipping .content span, .shipping .content strong {
     padding: 0; }
   .shipping .content h3 {
     font-size: 1.5em;
     margin-bottom: .6666em;
     word-wrap: break-word; }
-  .shipping .content a {
-    color: #51b2f5;
-    padding: 0; }
   .shipping ul li {
     padding: 4px; }
+  .shipping .social-icons {
+    list-style: none;
+    margin: 20px 0 0 0;
+    -moz-align-items: baseline;
+    -ms-align-items: baseline;
+    -ms-flex-align: baseline;
+        align-items: baseline;
+    padding-left: 0;
+    display: -ms-flexbox;
+    display: flex; }
+    .shipping .social-icons li {
+      padding-right: 10px; }
+    .shipping .social-icons .icon {
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+      display: -moz-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      height: 1.2rem;
+      width: 1.2rem;
+      fill: currentColor; }
+      .shipping .social-icons .icon .icon svg {
+        height: 100%;
+        width: 100%; }
+  .shipping .contact-form {
+    background-color: #cccccc;
+    padding: 40px; }
+    .shipping .contact-form .form-blocks {
+      margin-bottom: 20px; }
+    .shipping .contact-form label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: .5em; }
+    .shipping .contact-form .input, .shipping .contact-form .textarea {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+      border: 1px solid transparent;
+      border-radius: 0;
+      box-shadow: none;
+      display: -moz-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      font-size: 1rem;
+      height: 2.25em;
+      -moz-justify-content: flex-start;
+      -ms-justify-content: flex-start;
+      justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      line-height: 1.5;
+      padding-bottom: calc(.375em - 1px);
+      padding-left: calc(.625em - 1px);
+      padding-right: calc(.625em - 1px);
+      padding-top: calc(.375em - 1px);
+      position: relative;
+      vertical-align: top; }
+    .shipping .contact-form .input, .shipping .contact-form .textarea {
+      background-color: #fff;
+      border-color: #ccc;
+      color: #363636;
+      box-shadow: none;
+      max-width: 100%;
+      width: 100%; }
+    .shipping .contact-form .textarea {
+      display: block;
+      max-width: 100%;
+      min-width: 100%;
+      padding: .625em;
+      resize: vertical; }
+    .shipping .contact-form .textarea:not([rows]) {
+      max-height: 600px;
+      min-height: 120px; }
+    .shipping .contact-form .textarea {
+      border-radius: 5px;
+      padding-left: 1em;
+      padding-right: 1em; }
+    .shipping .contact-form .input {
+      border-radius: 15px;
+      padding-left: 1em;
+      padding-right: 1em; }
+    .shipping .contact-form .button {
+      color: #000;
+      border-color: transparent;
+      font-family: Poppins,sans-serif;
+      font-weight: 500;
+      background-color: #08d687;
+      font-size: 1rem;
+      border-radius: 15px;
+      padding-bottom: calc(.375em - 1px);
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: calc(.375em - 1px); }
 
 @media (min-width: 992px) {
   .shipping {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+    .shipping .banner-ship {
+      margin-bottom: 24px;
+      position: relative; }
+      .shipping .banner-ship .banner__content .banner__text {
+        margin: auto;
+        max-width: 900px; }
+      .shipping .banner-ship .banner__content .banner__heading {
+        font-size: 55px; }
+      .shipping .banner-ship .banner__content .banner__subheading {
+        font-size: 16px; } }
 
 @media (max-width: 767.77px) {
   .banner-crumb,
