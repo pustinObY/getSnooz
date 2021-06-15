@@ -2336,6 +2336,31 @@ html {
   visibility: visible;
   opacity: 1; }
 
+.shipping {
+  padding-top: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px; }
+  .shipping .title {
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.125; }
+  .shipping .content span, .shipping .content strong {
+    padding: 0; }
+  .shipping .content h3 {
+    font-size: 1.5em;
+    margin-bottom: .6666em;
+    word-wrap: break-word; }
+  .shipping .content a {
+    color: #51b2f5;
+    padding: 0; }
+  .shipping ul li {
+    padding: 4px; }
+
+@media (min-width: 992px) {
+  .shipping {
+    padding-top: 50px; } }
+
 @media (max-width: 767.77px) {
   .banner-crumb,
   .faq,
