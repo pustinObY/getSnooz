@@ -50,10 +50,11 @@
     .function {
         &__content {
             padding: 30px;
-            width: 23%;
+            width: 100%;
             position: absolute;
             background-color: rgba($color: #ffffff, $alpha: 0);
-            top: 22%;
+            top: 42%;
+            text-align: center;
             left: 50%;
             font-size: 16px;
             transform: translate(-50%, -50%);
@@ -93,12 +94,32 @@
     align-items: center;
     // border-radius: 8px;
 }
-
+@media (min-width: 992px){
+    .product-detail {
+        .function {
+            &__content {
+                width: 80%;
+                top: 50%;
+                text-align: left;
+            }
+        }
+    }
+}
 @media (min-width: 1200px) {
     .col-xlg-5 {
         flex: 0 0 auto;
         width: 20%;
     }
+    .product-detail {
+        .function {
+            &__content {
+                width: 23%;
+                top: 22%;
+                text-align: left;
+            }
+        }
+    }
+   
 }
 .rating-detail {
     margin-bottom: 100px;

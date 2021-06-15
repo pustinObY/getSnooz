@@ -1165,7 +1165,31 @@
 html {
     height: 100%;
 }
-
+@media (max-width:991.77px){
+    .content_checkout{
+        .banner{
+            padding: 1.5em 0;
+            background: 0 0;
+            background-size: cover;
+            display: none;
+            .logo__image--medium{
+                max-height: 2.8571428571em;
+            }
+            .logo__image {
+                display: inline-block;
+            }
+        }
+        .main .logo{
+            display: none;
+        }
+        .wrap {
+            width: 100%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0 1em;
+        }
+    }
+}
 @media (max-width: 767.77px) {
     .main {
         padding-top: 1.5em;

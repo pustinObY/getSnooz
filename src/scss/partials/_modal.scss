@@ -250,5 +250,26 @@
                 width: 100%;
             }
         }
+        &.rate {
+            .modal-dialog {
+                .modal-body {
+                    .comment{
+                       flex-direction: column;
+                       &__left{
+                        flex-basis: auto;
+                        height: 230px;
+                        img{
+                            height: 230px;
+                        }
+                       }
+                       &__right{
+                           &--content{
+                            max-height: calc(100vh - 500px);
+                           }
+                       }
+                    }
+                }
+            }
+        }
     }
 }

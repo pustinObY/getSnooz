@@ -1048,7 +1048,18 @@ body {
 
 @media (max-width: 767.77px) {
   .modal.pop-cart .modal-dialog {
-    width: 100%; } }
+    width: 100%; }
+  .modal.rate .modal-dialog .modal-body .comment {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    .modal.rate .modal-dialog .modal-body .comment__left {
+      -ms-flex-preferred-size: auto;
+          flex-basis: auto;
+      height: 230px; }
+      .modal.rate .modal-dialog .modal-body .comment__left img {
+        height: 230px; }
+    .modal.rate .modal-dialog .modal-body .comment__right--content {
+      max-height: calc(100vh - 500px); } }
 
 .banner-crumb {
   margin-top: 80px;
@@ -1097,10 +1108,11 @@ body {
       text-decoration: underline; }
   .product-detail .function__content {
     padding: 30px;
-    width: 23%;
+    width: 100%;
     position: absolute;
     background-color: rgba(255, 255, 255, 0);
-    top: 22%;
+    top: 42%;
+    text-align: center;
     left: 50%;
     font-size: 16px;
     -ms-transform: translate(-50%, -50%);
@@ -1134,11 +1146,21 @@ body {
   -ms-flex-align: center;
       align-items: center; }
 
+@media (min-width: 992px) {
+  .product-detail .function__content {
+    width: 80%;
+    top: 50%;
+    text-align: left; } }
+
 @media (min-width: 1200px) {
   .col-xlg-5 {
     -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-    width: 20%; } }
+    width: 20%; }
+  .product-detail .function__content {
+    width: 23%;
+    top: 22%;
+    text-align: left; } }
 
 .rating-detail {
   margin-bottom: 100px; }
@@ -2193,6 +2215,23 @@ body {
 
 html {
   height: 100%; }
+
+@media (max-width: 991.77px) {
+  .content_checkout .banner {
+    padding: 1.5em 0;
+    background: 0 0;
+    background-size: cover;
+    display: none; }
+    .content_checkout .banner .logo__image--medium {
+      max-height: 2.8571428571em; }
+    .content_checkout .banner .logo__image {
+      display: inline-block; }
+  .content_checkout .main .logo {
+    display: none; }
+  .content_checkout .wrap {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1em; } }
 
 @media (max-width: 767.77px) {
   .main {
