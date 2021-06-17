@@ -140,10 +140,17 @@ a {
             height: 1.2rem;
             width: 1.2rem;
             fill: currentColor;
+            i{
+                transition: 0.3s ease-in-out;
+                font-size: 18px;
+            }
         }
         &:hover {
             .icon {
                 fill: $color-primary;
+                i{
+                    color: $color-primary;
+                }
             }
         }
         .count {
